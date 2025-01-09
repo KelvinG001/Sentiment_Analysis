@@ -49,6 +49,7 @@ async def main():
         auth_info_2=email,
         password=password
     )
+    client.save_cookies('cookies.json')
     #################### uncomment if first use and modify the login credential in config.ini#########################
     # client.load_cookies('cookies.json') #use cookie to login after the first login
     for query in queries:
