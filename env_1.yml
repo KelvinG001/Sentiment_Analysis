@@ -1,4 +1,4 @@
-name: keio_thesis
+name: X_comment_collect
 channels:
   - conda-forge
   - defaults
